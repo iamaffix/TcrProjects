@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="project1.css">
+</head>
+<body>
+    <h1 align="center">1<sup>st</sup> SURVEY OF MOVIES AND TV SHOW</h1>
+    <fieldset>
+        <legend>Full Name</legend>
+        <label>Name <input type="text"> </label><br>
+        <label>Lastname <input type="text"> </label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Details</legend>
+        <label>Email <input type="email"></label><br>
+        <label>Mobile no: <input type="number"></label><br>
+        <label>Address </label><br>
+            <textarea name="Address" cols="30" rows="10"></textarea>
+    </fieldset>
+
+    <fieldset>
+        <legend>Anime Watched</legend>
+        <label><input type="checkbox">Vinland Saga </label><br>
+        <label><input type="checkbox">Attack on Titan </label><br>
+        <label><input type="checkbox">Death Note </label><br>
+        <label><input type="checkbox">Fma </label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Games Played</legend>
+        If you played ant game in series select option <br>
+        <label><input type="radio">Gta series</label><br>
+        <label><input type="radio">Metro series</label><br>
+        <label><input type="radio">hellblade</label><br>
+        <label><input type="radio">plague tale</label><br>
+        <label><input type="radio">sifu</label><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Select an option</legend>
+        <label>Gender</label>
+        <select >
+            <option value="">Male</option>
+            <option value="">feMale</option>
+            <option value="">Transgender</option>
+            <option value="">Prefer Not to Say</option>
+
+        </select>
+        
+    </fieldset>
+
+    <fieldset>
+        <legend>Guess Movie with Picture</legend>
+        <img src="./OIP.jpg" alt="sinsister"><br>
+        <label>What movie is this</label><br>
+        <input list="moviename" type="text">
+        <datalist id="moviename">
+            <option value="Sinister"></option>
+            <option value="The Black Phone"></option>
+            <option value="Jungle cruise"></option>
+            <option value="Conjuring"></option>
+        </datalist>    
+    </fieldset>
+
+    <fieldset>
+        <legend>Choose todays date:</legend>
+        <label for="MM-DD-YY"></label>
+        <input type="date">
+        <input type="time" >
+    </fieldset>
+
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+</body>
+</html>
