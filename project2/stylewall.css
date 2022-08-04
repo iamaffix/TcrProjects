@@ -1,0 +1,8 @@
+body{
+    justify-content: center;
+    align-items: center;
+    background:rgb(206, 203, 203);
+  }
+  .container1 .cont .imgbx img{
+    max-width: 100%;
+  }
