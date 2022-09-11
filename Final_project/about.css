@@ -1,0 +1,21 @@
+@font-face {
+    font-family: gotfont;
+    src: url(Game\ of\ Thrones.ttf);
+}
+body{
+    background: linear-gradient(to right, #000000, #6b6b6b);
+    color: white;
+}
+span{
+    font-family: gotfont;
+}
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+p{
+    padding-top: 20px;
+}
+h3{
+    padding-top: 20px;
+}
