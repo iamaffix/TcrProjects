@@ -1,0 +1,65 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.carousel-item img{
+width: 100%;
+height: 95vh;
+}
+.navbar{
+    list-style-type: none;
+    display: flex;
+    padding: 18px 0;
+    background-size: 400% 400%;
+    background-image: linear-gradient(-45deg,  #ffffff, #ffffff, #0cdb16, #ffffff,#ff8800);
+    animation: 12s myGradient infinite;
+    box-shadow: 3px 3px 20px #ff3352;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  @keyframes myGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    
+    50%{
+      background-position: 100% 50%;
+    }
+    
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+ 
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
